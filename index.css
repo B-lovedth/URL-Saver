@@ -17,12 +17,13 @@ header{
 }
 
 input{
-    border-color: #01040000 ;
     padding: 10px;
-    border: 3px solid ;
+    border: none;
     width: 100%;
     box-sizing: border-box;
     border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 button{
@@ -35,6 +36,16 @@ button{
     margin-top: 5px;
     width: 20%;
     border-radius: 10px;
+    border: 0px dotted;
+    box-shadow: 0 6px 10px rgba(92, 157, 0, 0.35);
+    -webkit-filter: drop-shadow(0 5px 15px #0a0a0a0a);
+    filter: drop-shadow(0 5px 15px #1e1e1e0a);
+    
+}
+button:hover{
+    color: #5f9341;
+    background-color: #eede06;
+    transition: all 900ms ease;
 }
 
 .button{
@@ -63,4 +74,9 @@ a{
 #delete-all{
     color: #5f9341;
     background-color: white;
+}
+#delete-all:hover{
+    color: white;
+    background-color: #ff0000;
+    transition: all 900ms ease;
 }
